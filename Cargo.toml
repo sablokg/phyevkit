@@ -1,0 +1,25 @@
+[package]
+name = "phyevkit"
+version = "0.7.0"
+edition = "2021"
+license = "MIT"
+authors = ["Gaurav Sablok"]
+description = "evolutionary genomics"
+homepage = "https://codeberg.org/gsablok/phyloevolve"
+repository = "https://codeberg.org/gsablok/phyloevolve"
+keywords = ["bioinformatics","genomics"]
+
+[dependencies]
+charts = "0.3.0"
+clap = { version = "4.5.27", features = ["derive"] }
+colored = "3.0.0"
+futures = "0.3.31"
+plotters = "0.3.7"
+rayon = "1.10.0"
+tokio = { version = "1.47.1", features = ["full"] }
+vornix-banner = "0.0.1"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
