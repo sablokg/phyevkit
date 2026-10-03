@@ -5,8 +5,8 @@ edition = "2021"
 license = "MIT"
 authors = ["Gaurav Sablok"]
 description = "evolutionary genomics"
-homepage = "https://codeberg.org/gsablok/phyloevolve"
-repository = "https://codeberg.org/gsablok/phyloevolve"
+homepage = "https://codeberg.org/gsablok/phyevkit"
+repository = "https://codeberg.org/gsablok/phyevkit"
 keywords = ["bioinformatics","genomics"]
 
 [dependencies]
